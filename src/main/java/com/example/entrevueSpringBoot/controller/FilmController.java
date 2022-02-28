@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
  * Rest APi la gestion de film.
  */
 @RestController()
-@RequestMapping("api/film")
+@RequestMapping("/film")
 public class FilmController {
 
     @Autowired
